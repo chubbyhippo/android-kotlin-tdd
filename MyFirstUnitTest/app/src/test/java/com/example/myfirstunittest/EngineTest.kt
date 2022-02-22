@@ -22,6 +22,7 @@ class EngineTest {
 
     @Test
     fun engineTurnOff() {
+        engine.turnOn()
         engine.turnOff()
         assertEquals(false, engine.isTurnedOn)
         assertEquals(15, engine.temperature)
