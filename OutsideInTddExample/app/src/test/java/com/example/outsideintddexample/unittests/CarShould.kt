@@ -10,7 +10,7 @@ import org.mockito.kotlin.verify
 
 class CarShould {
 
-     private val engine = mock<Engine>()
+    private val engine = mock<Engine>()
     private val car = Car(5.0, engine)
 
     @Test
