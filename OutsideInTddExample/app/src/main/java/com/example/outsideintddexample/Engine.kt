@@ -2,7 +2,7 @@ package com.example.outsideintddexample
 
 class Engine(
     var isTurnedOn: Boolean = false,
-    var temperature: Int = 0
+    var temperature: Int = 15
 ) {
     fun turnOn() {
         isTurnedOn = true
