@@ -20,6 +20,6 @@ class CarFeature {
     fun carIsTurningOnItsEngineAndIncreasesTheTemperature() {
         car.turnOn()
         assertTrue( car.engine.isTurnedOn)
-//        assertEquals(95, car.engine.temperature)
+        assertEquals(95, car.engine.temperature)
     }
 }
